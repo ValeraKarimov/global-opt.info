@@ -1,0 +1,24 @@
+.button {
+   margin-top: 21px;
+   background-color: $main-color;
+   width: 160px;
+   height: 45px;
+   border-radius: 10px;
+
+   font-size: 12px;
+   color: #fff;
+   text-align: center;
+   font-weight: normal;
+   text-transform: uppercase;
+   cursor: pointer;
+   &:hover {
+      border: none;
+   }
+   &_calc {
+      display: block;
+      margin: 62px auto;
+      width: 230px;
+      height: 57px;
+      font-size: 15px;
+   }
+}
