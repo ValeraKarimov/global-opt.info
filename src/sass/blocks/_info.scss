@@ -1,0 +1,40 @@
+.agent_info {
+   padding-top: 58px;
+   padding-bottom: 75px;
+   background: url(../../img/bg_4.jpg) center (center/cover) no-repeat;
+
+}
+
+.agent_icon {
+   display: block;
+   margin: 0 auto;
+
+   border: 2px solid #fff;
+   width: 102px;
+   height: 102px;
+   border-radius: 100%;
+   img {
+      padding-top: 20px;
+      display: block;
+      margin: 0 auto;
+
+   }
+}
+
+.title_info {
+   margin-top: 20px;
+   font-size: 26px;
+   font-weight: bold;
+   color: #fff;
+   text-align: center;
+}
+
+.descr_info {
+   display: block;
+   margin: 11px auto 0 auto;
+   width: 984px;
+   font-size: 19px;
+   font-weight: 300;
+   text-align: center;
+   color: #fff;
+}

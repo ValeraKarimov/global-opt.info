@@ -1,0 +1,43 @@
+.consultation {
+   padding-top: 28px;
+   padding-bottom: 195px;
+   &_title {
+      font-size: 28px;
+      font-weight: normal;
+      text-align: center;
+      color: #3a3a3a;
+   }
+   &_inputs {
+      position: absolute;
+      margin-top: 0;
+      margin-bottom: 70px;
+      border: 1px solid #898989;
+      width: 816px;
+      height: 166px;
+      padding-left: 162px;
+      padding-right: 162px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   &_icon {
+      display: block;
+      margin: 0 auto;
+   
+      border: 2px solid #e93b3b;
+      width: 102px;
+      height: 102px;
+      border-radius: 100%;
+      position: relative;
+      top: 49px;
+      background-color: #fff;
+      z-index: 5;
+      img {
+         position: relative;
+         left: 50%;
+         transform: translateX(-50%);
+         top: 20px;
+      }
+   }
+}
+
