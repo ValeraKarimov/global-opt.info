@@ -5,3 +5,20 @@
    text-align: center;
    text-transform: uppercase;
 }
+
+.divider {
+   width: 148px;
+   height: 1px;
+   background-color: $main-color;
+   margin: 20px auto 17px auto;
+}
+
+.subtitle {
+   width: 879px;
+   display: block;
+   margin: 0 auto;
+   color: #2e2e2e;
+   font-size: 21px;
+   font-weight: 300;
+   text-align: center;
+}
